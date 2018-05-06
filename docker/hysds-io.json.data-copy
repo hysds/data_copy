@@ -1,0 +1,23 @@
+{
+  "label":"Data Copy",
+  "component":"tosca",
+  "submission_type":"individual",
+  "params" : [
+    {
+      "name": "query",
+      "type": "text",
+      "from": "passthrough"
+    },
+    {
+      "name": "Dataset Destination",
+      "type": "text",
+      "from": "submitter",
+      "default": "https://aria-share.jpl.nasa.gov/events/NEW_EVENT_NAME/"
+    },
+    {
+      "name": "name",
+      "type": "text",
+      "from": "passthrough"
+    }
+  ]
+}

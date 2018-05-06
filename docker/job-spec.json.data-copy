@@ -1,0 +1,23 @@
+{
+  "command":"/home/ops/verdi/ops/data_copy/copy_data.sh",
+  "imported_worker_files": {
+    "/home/ops/.netrc": "/home/ops/.netrc",
+    "/home/ops/.aws": "/home/ops/.aws"
+  },
+  "recommended-queues": [ "system-jobs-queue" ],
+  "disk_usage":"3GB",
+  "params" : [
+    {
+      "name": "query",
+      "destination": "positional"
+    },
+    {
+      "name": "Dataset Destination",
+      "destination": "positional"
+    },
+    {
+      "name": "name",
+      "destination": "positional"
+    }
+   ]
+}
